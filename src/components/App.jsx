@@ -1,19 +1,17 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import Footer from "./Footer"
-import Note from "./Note"
 import Header from "./Header"
+import Note from "./Note"
+import Footer from "./Footer"
 
-function app() {
+
+function App() {
     return(
         <div>
             <Header />
-            <Footer />
             <Note />
+            <Footer />
         </div>
     )
 }
-    
-
-
-export default App 
+export default App;
